@@ -1,0 +1,230 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.mobile-view-container{
+   width: 390px;
+}
+.mobile-view{
+   position:   absolute;
+   top: 0;
+   left: 50%;
+   transform: translate(-50%,0%);
+}
+.top-level-container{
+   display: flex;
+}
+.facebook-img{
+   flex-grow: 1;
+}
+.icons{
+   display: flex;
+   gap: 10px;
+   margin: 10px 10px 0px 0px;
+}
+.icons .fas,.fab{
+   font-size: 20px;
+   background-color: rgba(223, 231, 231, 0.966);
+   border-radius: 50%;
+   width: 32px;
+   height: 32px;
+   padding: 6px;
+}
+.icons::before{
+   display: block;
+   content: '1';
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   background-color: red;
+   color: white;
+   left: 90px;
+   font-size: 10px;
+   position: relative;
+   text-align: center;
+   padding-top: 2px;
+}
+.menu-icons{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 10px;
+}
+.menu-icons i{
+   flex-grow: 1;
+   font-size: 22px;
+   text-align: center;
+}
+.notification,.video,.users{
+   position: relative;
+}
+.notification::before{
+   display: inline-block;
+   content: '1';
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   background-color: red;
+   color: white;
+   position: absolute;
+   font-size: 10px;
+   padding-top: 2px;
+   text-align: center;
+   left: 10px;
+   top: -8px;
+}
+.video::before{
+   display: inline-block;
+   content: '1';
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   background-color: red;
+   color: white;
+   position: absolute;
+   font-size: 10px;
+   padding-top: 2px;
+   text-align: center;
+   left: 10px;
+   top: -8px;
+}
+.users::before{
+   display: inline-block;
+   content: '2';
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   background-color: red;
+   color: white;
+   position: absolute;
+   font-size: 10px;
+   padding-top: 2px;
+   text-align: center;
+   left: 10px;
+   top: -8px;
+}
+.img-with-textContainer{
+   display: flex;
+   width: 100%;
+   padding: 20px;
+   gap: 10px;
+}
+.img-with-textContainer img{
+   border-radius: 50%;
+   height: 40px;
+   width: 40px;
+   top: 10px;
+   position: relative;
+}
+.img-with-textContainer .search{
+   width: inherit;
+   height: 60px;
+   border-radius: 30px;
+   border: 1px solid rgb(204, 192, 192);
+   padding: 10px;
+   font-size: 16px;
+}
+.three-section{
+   display: flex;
+   justify-content: space-around;
+}
+.top-3-icons{
+   display: flex;
+   gap: 6px;
+}
+.top-3-icons img{
+   width: 20px;
+   height: 20px;
+}
+.divider{
+   width: auto;
+   height: 10px;
+   background-color: rgb(201, 193, 193);
+   margin-top: 10px;
+}
+.story-container{
+   padding: 10px;
+   display: flex;
+   gap: 5px;
+   width: auto;
+   overflow: scroll;
+}
+.story{
+   display: flex;
+   flex-direction: column;
+   border: 10px;
+   border: 2px solid rgb(228, 215, 215);
+   padding: 5px;
+   border-radius: 10px;
+   justify-content: space-between;
+}
+.story img{
+width: 80px;
+height: 100px;
+border-radius: 10px;
+}
+.story i{
+   color: rgb(9, 9, 221);
+   font-size: 25px;
+   position: relative;
+   top: -10px;
+   background-color: rgb(247, 243, 243);
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   text-align: center;
+   padding-top: 2px;
+   left: 25px;
+}
+.upload-details i{
+   color: rgb(161, 150, 150);
+}
+.story p{
+   font-size: 12px;
+   font-weight: bolder;
+}
+.post{
+   height: 170px;
+   width: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 10px;
+}
+.profile-details{
+   display: flex;
+   gap: 10px;
+}
+.profile-details img{
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+}
+.post-icons{
+   display: flex;
+}
+.post-icon{
+   flex-grow: 1;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   gap: 3px;
+}
+.post-icon i{
+   font-size: 20px;
+   text-align: center;
+}
+.profile-post img{
+   width: auto;
+   height: 200px;
+   border-radius: 10px;
+   margin: 10px;
+}
+/* .divide{
+   width: auto;
+   height: 30px;
+   background-color: silver;
+   padding: 3px;
+   margin: 10px;
+} */
